@@ -1,0 +1,9 @@
+# Ignore this file
+
+*.exe
+*.dll
+*.txt
+*.conf
+*.properties
+
+
