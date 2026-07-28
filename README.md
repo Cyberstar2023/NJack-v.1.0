@@ -18,7 +18,8 @@ Android Shell Buster • A Python-based ADB CLI Toolkit
 Author
 ------
 Yashraj Debnath
-a.k.a Cyberstar2023
+a.k.a Cyberstar2023 with
+InfoyTech
 
 Project
 -------
