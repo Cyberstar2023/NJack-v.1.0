@@ -3,6 +3,18 @@
                Android Shell Buster
 ═══════════════════════════════════════════════════════════════
 
+<p align="center">
+  <img src="header.png" width="100%">
+</p>
+
+<h1 align="center">NJack</h1>
+
+<p align="center">
+Android Shell Buster • A Python-based ADB CLI Toolkit
+</p>
+
+---
+
 Author
 ------
 Yashraj Debnath
@@ -34,7 +46,6 @@ REQUIREMENTS
 • Android SDK Platform Tools (ADB)
 • USB Debugging enabled on the Android device
 • Required Python packages:
-    - adb-shell
     - termcolor
 
 INSTALLATION
