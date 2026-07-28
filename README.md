@@ -1,8 +1,3 @@
-Based on the uploaded script, this appears to be a Python CLI utility that uses ADB to control an Android device after a connection is established, offering functions such as screenshots, app launching/stopping, text input, taps, and phone calls. 
-
-Here's a professional `README.txt` you can include with your project:
-
-```
 ═══════════════════════════════════════════════════════════════
                       NJack v1.0
                Android Shell Buster
