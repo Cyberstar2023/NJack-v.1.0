@@ -39,6 +39,11 @@ Termux / Linux Installation
 ---------------------------
     git clone https://github.com/Cyberstar2023/NJack-v.1.0
 
+Change Directory
+----------------
+
+    cd NJack-v.1.0
+
 Python Requirement
 ------------------
 Python 3.10 or above is recommended.
