@@ -1,98 +1,141 @@
-Based on the uploaded script, this appears to be a Python CLI utility that uses ADB to control an Android device after a connection is established, offering functions such as screenshots, app launching/stopping, text input, taps, and phone calls. 
+=========================================================
+                    NJack v1.0
+             Android Shell Buster
+=========================================================
 
-Here's a professional `README.txt` you can include with your project:
+Author(s)
+---------
+• Cyberstar2023
+• InfoyTech
 
-```
-═══════════════════════════════════════════════════════════════
-                      NJack v1.0
-               Android Shell Buster
-═══════════════════════════════════════════════════════════════
+Description
+-----------
+NJack is a Python-based Android shell utility / pen-testing tool that communicates
+with Android devices through the Android Debug Bridge (ADB).
 
-Author
-------
-Yashraj Debnath
-a.k.a Cyberstar2023
+The tool provides a simple command-line interface to interact
+with an Android device after the user has paired and connected
+it using Android Wireless Debugging.
 
-Project
--------
-NJack is a Python-based command-line utility built around the
-Android Debug Bridge (ADB) for interacting with Android devices
-that you own or are explicitly authorized to test. It provides
-a simple terminal interface for common ADB operations.
+Supported Platforms
+-------------------
+✔ Windows
+✔ Linux
+✔ Termux (Android)
 
-FEATURES
+Python Requirement
+------------------
+Python 3.10 or above is recommended.
+
+Python Package
+--------------
+Install the required dependency:
+
+pip3 install termcolor
+
+Linux / Termux Requirements
+---------------------------
+Update packages:
+
+pkg update && pkg upgrade
+
+Install Android Platform Tools:
+
+pkg install android-tools
+
+Windows Requirements
+--------------------
+No external ADB installation is required.
+
+The project folder already contains the official ADB repository
+provided by InfoyTech.
+
+Simply extract the project and run the Python script.
+
+Features
 --------
-• Connect to an Android device through ADB
-• Display basic device information
-• Capture screenshots
-• Return to Home screen
-• Launch installed applications
-• Force stop applications
-• Send keyboard text input
-• Perform screen tap events
-• Initiate phone calls through Android Intent
-• Disconnect device and stop ADB server
+• Wireless ADB Pairing
+• Wireless Device Connection
+• Device Information
+    - Device Name
+    - Model
+    - Android Version
+    - Battery Status
 
-REQUIREMENTS
-------------
-• Python 3.10 or newer
-• Android SDK Platform Tools (ADB)
-• USB Debugging enabled on the Android device
-• Required Python packages:
-    - adb-shell
-    - termcolor
+• Device Management
+    - Disconnect unwanted ADB devices
+    - Exit and cleanly stop ADB server
 
-INSTALLATION
-------------
-1. Install Python.
+Available Operations
+--------------------
+1. Capture Screenshot
+2. Return to Home Screen
+3. Launch Applications
+4. Stop Applications
+5. Type Text
+6. Tap Anywhere on Screen
+7. Initiate Phone Call
+8. Disconnect & Exit
 
-2. Install required packages:
-
-   pip install adb-shell termcolor
-
-3. Install Android Platform Tools and ensure "adb" is
-   available in your system PATH.
-
-USAGE
+Usage
 -----
-Run the tool using:
+Windows:
 
     python NJack.py
 
-Follow the on-screen menu to execute supported ADB operations.
+Linux:
 
-DISCLAIMER
-----------
-This software is intended ONLY for:
+    python3 NJack.py
 
-• Personal Android device management
-• Security research
-• Educational purposes
-• Authorized penetration testing
+Termux:
 
-Any use against devices, accounts, or systems without the
-owner's explicit permission may violate laws and regulations.
-The author is not responsible for any misuse or damages caused
-by this software.
+    python3 NJack.py
 
-LICENSE
--------
-Copyright © 2026
-Yashraj Debnath (Cyberstar2023)
+Connection Steps
+----------------
+1. Enable Developer Options.
+2. Enable Wireless Debugging.
+3. Obtain the device IP Address.
+4. Obtain the Pairing Port.
+5. Pair the device.
+6. Obtain the Debugging Port.
+7. Connect to the device.
+8. Select the desired operation from the menu.
 
+Required Permissions
+--------------------
+The Android device must have:
+
+• Developer Options enabled
+• Wireless Debugging enabled
+• Authorization accepted on the device
+
+Notes
+-----
+• Only authorized devices can be controlled.
+• If multiple ADB devices are connected, disconnect the unwanted
+  device before continuing.
+• Keep both devices connected to the same local network.
+
+Project Information
+-------------------
+Version : v1.0
+
+Name    : NJack
+Subtitle: Android Shell Buster
+
+Developed by
+-------------
+Cyberstar2023
+InfoyTech
+
+=========================================================
+This software is intended for educational, testing,
+development, and authorized device management purposes only.
+Use only on devices you own or are explicitly authorized
+to administer. Unauthorized access to devices may violate
+laws and policies.
+
+Copyright © 2026 Cyberstar2023 & InfoyTech
 All Rights Reserved.
-
-CONTACT
--------
-Author : Yashraj Debnath
-Alias  : Cyberstar2023
-
-Version
--------
-NJack v1.0
-Android Shell Buster
-
-═══════════════════════════════════════════════════════════════
-      "Learn. Build. Secure. Use Responsibly."
-═══════════════════════════════════════════════════════════════
-```
+=========================================================
