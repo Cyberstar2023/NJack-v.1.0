@@ -43,17 +43,17 @@ Python Package
 --------------
 Install the required dependency:
 
-pip3 install termcolor
+    pip3 install termcolor
 
 Linux / Termux Requirements
 ---------------------------
 Update packages:
 
-pkg update && pkg upgrade
+    pkg update && pkg upgrade
 
 Install Android Platform Tools:
 
-pkg install android-tools
+    pkg install android-tools
 
 Windows Requirements
 --------------------
