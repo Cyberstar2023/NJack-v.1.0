@@ -7,7 +7,7 @@
   <img src="header.png" width="100%">
 </p>
 
-<h1 align="center">NJack</h1>
+<h1 align="center">🔥 NJack 🔥</h1>
 
 <p align="center">
 Android Shell Buster • A Python-based ADB CLI Toolkit
